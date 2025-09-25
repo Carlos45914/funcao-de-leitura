@@ -1,0 +1,103 @@
+exercicio 1
+
+def validaIdade(idade):
+    if(idade >= 18):
+        print("Você é maior de idade")
+
+idade = int(input("Digite a sua idade"))
+
+validaIdade(idade)
+
+exercicio 2
+
+def resultadoFinal(numeroSomados, valor):
+    return print(f"Somando todos os valores e subtraindo por 10 o resultado é {numeroSomados - valor}")
+
+
+numero = int(input('Digite o primeiro número inteiro: '))
+numero1 = int(input('Digite o segundo número inteiro: '))
+numero2 = int(input('Digite o terceiro  número inteiro: '))
+numero3 = int(input('Digite o quarto número inteiro: '))
+numeroSomados = (numero + numero1 + numero2 + numero3)
+valor = 10
+
+resultadoFinal(numeroSomados, valor)
+
+
+exercicio 3
+
+def resultadoSoma(numero,numero1):
+    return print(f'A soma dos números é: {numero + numero1}')
+
+def resultadoSubtracao(numero,numero1):
+    return print(f'A subtração dos números é: {numero - numero1}')
+
+def resultadoMultiplicacao(numero,numero1):
+    return print(f'A multiplicação dos números é: {numero * numero1}')
+
+def resultadoDivisao(numero,numero1):
+    return print(f'A divisão dos números é: {numero / numero1}')
+
+numero = int(input("Digite o primeiro número inteiro: "))
+numero1 = int(input("Digite o segundo número inteiro: "))
+
+resultadoSoma(numero,numero1)
+resultadoSubtracao(numero,numero1)
+resultadoMultiplicacao(numero,numero1)
+resultadoDivisao(numero,numero1)
+
+
+exercicio 4 
+
+
+def resultadoTabuada(numero, tabuada):
+    print(f'{numero} x 1 = {numero * 1}')
+    print(f'{numero} x 2 = {numero * 2}')
+    print(f'{numero} x 3 = {numero * 3}')
+    print(f'{numero} x 4 = {numero * 4}')
+    print(f'{numero} x 5 = {numero * 5}')
+    print(f'{numero} x 6 = {numero * 6}')
+    print(f'{numero} x 7 = {numero * 7}')
+    print(f'{numero} x 8 = {numero * 8}')
+    print(f'{numero} x 9 = {numero* 9}')
+    print(f'{numero} x 10 = {numero * 10}')
+
+
+numero = int(input("digite o numero inteiro"))
+
+tabuada = 1
+
+resultadoTabuada(numero, tabuada)
+
+exercicio 5 
+
+def media(nota, nota1):
+   return print(f'A media entra {nota} e a {nota1} è {(nota + nota1) / 2}')
+nota = int(input("digite sua nota"))
+nota1 = int(input("digite sua outra nota"))
+
+media(nota, nota1)
+
+exercicio 6
+
+def areaTriangulo(baseTriangulo, alturaTriangulo):
+  return print(f'A area do trinagulo é {(baseTriangulo * alturaTriangulo)/2 }')
+
+baseTriangulo = int(input("digite a base do seu triangulo"))
+alturaTriangulo = int(input("digite a altura do seu triangulo"))
+
+areaTriangulo(baseTriangulo, alturaTriangulo)
+
+exercicio 7
+
+def fahrenheit(celcius):
+    return celcius* 1.8+32
+
+
+def temperatura(celcius, fahrenheit):
+    print(f'A temperatura de {celcius}° em fahrenheit é {fahrenheit}')
+
+
+celcius = int(input('Digite uma temperatura em celcius: '))
+tempFahrenheit = fahrenheit(celcius)
+temperatura(celcius,tempFahrenheit)
