@@ -1,12 +1,10 @@
 exercicio 1
 
-def validaIdade(idade):
-    if(idade >= 18):
-        print("Você é maior de idade")
-
-idade = int(input("Digite a sua idade"))
-
-validaIdade(idade)
+def soma(numero,numero1):
+    return print(f'A soma dos números é: {numero + numero1}')
+numero = int(input("Digite o primeiro número inteiro: "))
+numero1 = int(input("Digite o segundo número inteiro: "))
+soma(numero,numero1)
 
 exercicio 2
 
